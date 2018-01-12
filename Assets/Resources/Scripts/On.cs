@@ -7,6 +7,8 @@ public class On : MonoBehaviour {
 	public GameObject propeller;
 	public GameObject blurpropeller;
 	public GameObject AC130;
+	public AudioSource gunship;
+	public AudioClip startup;
 	private float acc=0;
 	private float bluracc=0;
 	private float velocidad;
@@ -14,6 +16,7 @@ public class On : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		gunship.PlayOneShot (startup);
 	}
 
 	// Update is called once per frame

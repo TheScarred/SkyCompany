@@ -11,8 +11,11 @@ public class On : MonoBehaviour {
 	public AudioClip startup;
 	private float acc=0;
 	private float bluracc=0;
+	private float startacc=0;
 	private float velocidad;
 	private float blurvelocidad;
+	private float startvelocidad;
+	public bool gamestart=false;
 
 	// Use this for initialization
 	void Start () {
@@ -22,7 +25,7 @@ public class On : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (velocidad<20000.0)
+		if (velocidad<12500.0)
 		{
 			acc += Time.deltaTime;
 			velocidad = (acc * acc * acc);
@@ -40,5 +43,17 @@ public class On : MonoBehaviour {
 			blurpropeller.transform.GetChild (i).localRotation = Quaternion.Euler (new Vector3 (0, blurvelocidad, 0));
 			}
 		}
+		if (gamestart) {
+			startacc += Time.deltaTime;
+			startvelocidad = ((startacc * startacc) / 2);
+			this.transform.position = new Vector3 (10.0f-startvelocidad, 5.7f, 0); 
+			if (startvelocidad > 30.0f) {
+				gamestart = false;
+			}
+		}
+	}
+	public void start()
+	{
+		gamestart = true;
 	}
 }

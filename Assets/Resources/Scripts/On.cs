@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor.SceneManagement;
 
 public class On : MonoBehaviour {
 
@@ -44,12 +45,16 @@ public class On : MonoBehaviour {
 			}
 		}
 		if (gamestart) {
+			gunship.Stop ();
 			startacc += Time.deltaTime;
 			startvelocidad = ((startacc * startacc) / 2);
-			this.transform.position = new Vector3 (10.0f-startvelocidad, 5.7f, 0); 
+			this.transform.position = new Vector3 (10.0f-startvelocidad, 5.7f, -0.7f); 
 			if (startvelocidad > 30.0f) {
 				gamestart = false;
 			}
+		}
+		if (AC130.transform.position.x < -20.0f) {
+			EditorSceneManager.LoadScene ("game");
 		}
 	}
 	public void start()

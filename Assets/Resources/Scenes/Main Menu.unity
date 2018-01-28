@@ -217,6 +217,7 @@ MonoBehaviour:
   AC130: {fileID: 120198091}
   gunship: {fileID: 120198092}
   startup: {fileID: 0}
+  gamestart: 0
 --- !u!1 &126859771
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,7 +433,7 @@ MeshCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: -1
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!33 &367298738
@@ -829,7 +830,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1410568305}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 120198093}
+        m_MethodName: start
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1410568305
@@ -984,6 +996,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cb87ca77c256cf4cb5ad6e7f1505a9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AC130: {fileID: 120198091}
+  boton: {fileID: 1410568302}
   button: {fileID: 1410568307}
   image: {fileID: 713651618}
   mainmenu: {fileID: 1827240387}

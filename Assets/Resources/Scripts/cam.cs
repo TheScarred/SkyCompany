@@ -21,7 +21,6 @@ public class cam : MonoBehaviour {
 		}
 	}
 	void rotarx(){
-		Debug.Log(this.transform.rotation.eulerAngles.y);
 		if ((this.transform.rotation.eulerAngles.y > 50.0f) && (this.transform.rotation.eulerAngles.y < 250.0f)) {
 			this.transform.Rotate (new Vector3 (-1 * velocidad * izqder * Time.deltaTime, 0f, 0f));
 		}

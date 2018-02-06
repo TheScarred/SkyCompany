@@ -5,10 +5,6 @@ using UltimatePooling;
 
 public class gunship : MonoBehaviour {
 
-	public GameObject big;
-	public GameObject med;
-	public GameObject tiny;
-	public GameObject flare;
 	public Transform spawnpoint;
 	public Transform flarepoint;
 	public Camera cam;
@@ -58,25 +54,25 @@ public class gunship : MonoBehaviour {
 			mini = true;
 		}
 		if (Input.GetKeyDown (KeyCode.C)) {
-			UltimatePool.spawn (flare, flarepoint.position, flarepoint.rotation);
+			UltimatePool.spawn (Resources.Load<GameObject>("Art/flare"), flarepoint.position, flarepoint.rotation);
 		}
 
 		if (main) {
 			if (Input.GetKeyDown (KeyCode.Space)) {
-				UltimatePool.spawn (big, spawnpoint.position, new Quaternion (spawnpoint.rotation.x, spawnpoint.rotation.y, spawnpoint.rotation.z - 90, 0f));
+				UltimatePool.spawn (Resources.Load<GameObject>("Art/120mm"), spawnpoint.position, new Quaternion (spawnpoint.rotation.x, spawnpoint.rotation.y, spawnpoint.rotation.z - 90, 0f));
 				StartCoroutine (bigbig ());
 			}
 		}
 		if (sec) {
 			if (Input.GetKeyDown (KeyCode.Space)) {
-				UltimatePool.spawn (med, spawnpoint.position, new Quaternion (spawnpoint.rotation.x, spawnpoint.rotation.y, spawnpoint.rotation.z - 90, 0f));
+				UltimatePool.spawn (Resources.Load<GameObject>("Art/80mm"), spawnpoint.position, new Quaternion (spawnpoint.rotation.x, spawnpoint.rotation.y, spawnpoint.rotation.z - 90, 0f));
 				StartCoroutine (medmed ());
 				}
 			}
 		if (mini)
 			{
 				if (Input.GetKey(KeyCode.Space)){
-					UltimatePool.spawn (tiny, spawnpoint.position, new Quaternion (spawnpoint.rotation.x, spawnpoint.rotation.y, spawnpoint.rotation.z - 90, 0f));
+				UltimatePool.spawn (Resources.Load<GameObject>("Art/30mm"), spawnpoint.position, new Quaternion (spawnpoint.rotation.x, spawnpoint.rotation.y, spawnpoint.rotation.z - 90, 0f));
 					StartCoroutine (tinytiny());
 				}
 			}

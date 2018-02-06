@@ -10,19 +10,19 @@ public class canvas : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		this.GetComponent<Image> ().sprite = crosshairs [0];
+		this.GetComponent<Image> ().sprite = Resources.Load<Sprite> ("Art/aa");
 		Quaternion rot = transform.localRotation;
 	}
 	void Update () {
 
 		if (Input.GetKeyDown (KeyCode.Alpha1)) {
-			ui.sprite = crosshairs [0];
+			ui.sprite = Resources.Load<Sprite>("Art/aa");
 		}
 		if (Input.GetKeyDown (KeyCode.Alpha2)) {
-			ui.sprite = crosshairs [1];
+			ui.sprite = Resources.Load<Sprite>("Art/cc");
 		}
 		if (Input.GetKeyDown (KeyCode.Alpha3)) {
-			ui.sprite = crosshairs [2];
+			ui.sprite = Resources.Load<Sprite>("Art/bb");
 		}
 	}
 }

@@ -32,7 +32,7 @@ public class gunship : MonoBehaviour {
 
 		///camaras
 		if (Input.GetKeyDown (KeyCode.Alpha1)) {
-			cam.fieldOfView = 80;
+			cam.fieldOfView = 90;
 			main = true;
 			sec = false;
 			mini = false;
@@ -45,7 +45,7 @@ public class gunship : MonoBehaviour {
 			mini = false;
 		}
 		if (Input.GetKeyDown (KeyCode.Alpha3)) {
-			cam.fieldOfView = 40;
+			cam.fieldOfView = 30;
 			main = false;
 			sec = false;
 			mini = true;

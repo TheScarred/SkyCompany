@@ -1,0 +1,619 @@
+fileFormatVersion: 2
+guid: 143c05d60a4b984429a1075bb5e71b7e
+timeCreated: 18446744011573954816
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 105mmCannon
+    100002: 25mmGun
+    100004: 50mmCannon
+    100006: //RootNode
+    100008: Bone_105mmAim
+    100010: Bone_105mmJoin
+    100012: Elevon_RightInner
+    100014: Elevon_RightOuter
+    100016: LandingFlap_Front
+    100018: LandingFlap_Left01
+    100020: LandingFlap_Left02
+    100022: LandingFlap_Right01
+    100024: LandingFlap_Right02
+    100026: LandingGear_Front
+    100028: LandingGear_Left
+    100030: LandingGear_Right
+    100032: LeftElevonInner
+    100034: LeftElevonOuter
+    100036: PropellerLeftInner
+    100038: PropellerLeftInner_Blurred001
+    100040: PropellerLeftOuter
+    100042: PropellerLeftOuter_Blurred
+    100044: PropellerRightInner
+    100046: PropellerRightInner_Blurred
+    100048: PropellerRightOuter
+    100050: PropellerRightOuter_Blurred
+    100052: Propellors
+    100054: Propellors_Blurred
+    100056: Wheel_LeftBck
+    100058: Wheel_LeftFwd
+    100060: Wheel_RightBck
+    100062: Wheel_RightFwd
+    100064: Wheels_Front
+    400000: 105mmCannon
+    400002: 25mmGun
+    400004: 50mmCannon
+    400006: //RootNode
+    400008: Bone_105mmAim
+    400010: Bone_105mmJoin
+    400012: Elevon_RightInner
+    400014: Elevon_RightOuter
+    400016: LandingFlap_Front
+    400018: LandingFlap_Left01
+    400020: LandingFlap_Left02
+    400022: LandingFlap_Right01
+    400024: LandingFlap_Right02
+    400026: LandingGear_Front
+    400028: LandingGear_Left
+    400030: LandingGear_Right
+    400032: LeftElevonInner
+    400034: LeftElevonOuter
+    400036: PropellerLeftInner
+    400038: PropellerLeftInner_Blurred001
+    400040: PropellerLeftOuter
+    400042: PropellerLeftOuter_Blurred
+    400044: PropellerRightInner
+    400046: PropellerRightInner_Blurred
+    400048: PropellerRightOuter
+    400050: PropellerRightOuter_Blurred
+    400052: Propellors
+    400054: Propellors_Blurred
+    400056: Wheel_LeftBck
+    400058: Wheel_LeftFwd
+    400060: Wheel_RightBck
+    400062: Wheel_RightFwd
+    400064: Wheels_Front
+    2300000: 25mmGun
+    2300002: 50mmCannon
+    2300004: //RootNode
+    2300006: Elevon_RightInner
+    2300008: Elevon_RightOuter
+    2300010: LandingFlap_Front
+    2300012: LandingFlap_Left01
+    2300014: LandingFlap_Left02
+    2300016: LandingFlap_Right01
+    2300018: LandingFlap_Right02
+    2300020: LandingGear_Front
+    2300022: LandingGear_Left
+    2300024: LandingGear_Right
+    2300026: LeftElevonInner
+    2300028: LeftElevonOuter
+    2300030: PropellerLeftInner
+    2300032: PropellerLeftInner_Blurred001
+    2300034: PropellerLeftOuter
+    2300036: PropellerLeftOuter_Blurred
+    2300038: PropellerRightInner
+    2300040: PropellerRightInner_Blurred
+    2300042: PropellerRightOuter
+    2300044: PropellerRightOuter_Blurred
+    2300046: Wheel_LeftBck
+    2300048: Wheel_LeftFwd
+    2300050: Wheel_RightBck
+    2300052: Wheel_RightFwd
+    2300054: Wheels_Front
+    3300000: 25mmGun
+    3300002: 50mmCannon
+    3300004: //RootNode
+    3300006: Elevon_RightInner
+    3300008: Elevon_RightOuter
+    3300010: LandingFlap_Front
+    3300012: LandingFlap_Left01
+    3300014: LandingFlap_Left02
+    3300016: LandingFlap_Right01
+    3300018: LandingFlap_Right02
+    3300020: LandingGear_Front
+    3300022: LandingGear_Left
+    3300024: LandingGear_Right
+    3300026: LeftElevonInner
+    3300028: LeftElevonOuter
+    3300030: PropellerLeftInner
+    3300032: PropellerLeftInner_Blurred001
+    3300034: PropellerLeftOuter
+    3300036: PropellerLeftOuter_Blurred
+    3300038: PropellerRightInner
+    3300040: PropellerRightInner_Blurred
+    3300042: PropellerRightOuter
+    3300044: PropellerRightOuter_Blurred
+    3300046: Wheel_LeftBck
+    3300048: Wheel_LeftFwd
+    3300050: Wheel_RightBck
+    3300052: Wheel_RightFwd
+    3300054: Wheels_Front
+    4300000: AC-130
+    4300002: LandingGear_Front
+    4300004: Wheels_Front
+    4300006: LandingGear_Left
+    4300008: Wheel_LeftBck
+    4300010: Wheel_LeftFwd
+    4300012: LandingFlap_Left01
+    4300014: LandingFlap_Left02
+    4300016: LandingGear_Right
+    4300018: Wheel_RightFwd
+    4300020: Wheel_RightBck
+    4300022: LandingFlap_Right02
+    4300024: LandingFlap_Right01
+    4300026: LeftElevonInner
+    4300028: Elevon_RightInner
+    4300030: Elevon_RightOuter
+    4300032: LandingFlap_Front
+    4300034: LeftElevonOuter
+    4300036: 25mmGun
+    4300038: 50mmCannon
+    4300040: PropellerRightOuter_Blurred
+    4300042: PropellerRightInner_Blurred
+    4300044: PropellerLeftInner_Blurred001
+    4300046: PropellerLeftOuter_Blurred
+    4300048: PropellerRightOuter
+    4300050: PropellerRightInner
+    4300052: PropellerLeftInner
+    4300054: PropellerLeftOuter
+    4300056: 105mmCannon
+    7400000: LandingGear_Up
+    7400002: LandingGear_Down
+    7400004: Grounded Pose
+    7400006: In Flight Pose
+    9500000: //RootNode
+    13700000: 105mmCannon
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: LandingGear_Up
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 25mmGun
+        weight: 1
+      - path: 50mmCannon
+        weight: 1
+      - path: 105mmCannon
+        weight: 1
+      - path: Bone_105mmJoin
+        weight: 1
+      - path: Bone_105mmJoin/Bone_105mmAim
+        weight: 1
+      - path: Elevon_RightInner
+        weight: 1
+      - path: Elevon_RightOuter
+        weight: 1
+      - path: LandingFlap_Front
+        weight: 1
+      - path: LandingFlap_Left01
+        weight: 1
+      - path: LandingFlap_Left02
+        weight: 1
+      - path: LandingFlap_Right01
+        weight: 1
+      - path: LandingFlap_Right02
+        weight: 1
+      - path: LandingGear_Front
+        weight: 1
+      - path: LandingGear_Front/Wheels_Front
+        weight: 1
+      - path: LandingGear_Left
+        weight: 1
+      - path: LandingGear_Left/Wheel_LeftBck
+        weight: 1
+      - path: LandingGear_Left/Wheel_LeftFwd
+        weight: 1
+      - path: LandingGear_Right
+        weight: 1
+      - path: LandingGear_Right/Wheel_RightBck
+        weight: 1
+      - path: LandingGear_Right/Wheel_RightFwd
+        weight: 1
+      - path: LeftElevonInner
+        weight: 1
+      - path: LeftElevonOuter
+        weight: 1
+      - path: Propellors
+        weight: 1
+      - path: Propellors/PropellerLeftInner
+        weight: 1
+      - path: Propellors/PropellerLeftOuter
+        weight: 1
+      - path: Propellors/PropellerRightInner
+        weight: 1
+      - path: Propellors/PropellerRightOuter
+        weight: 1
+      - path: Propellors_Blurred
+        weight: 1
+      - path: Propellors_Blurred/PropellerLeftInner_Blurred001
+        weight: 1
+      - path: Propellors_Blurred/PropellerLeftOuter_Blurred
+        weight: 1
+      - path: Propellors_Blurred/PropellerRightInner_Blurred
+        weight: 1
+      - path: Propellors_Blurred/PropellerRightOuter_Blurred
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: LandingGear_Down
+      takeName: Take 001
+      firstFrame: 80
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 25mmGun
+        weight: 1
+      - path: 50mmCannon
+        weight: 1
+      - path: 105mmCannon
+        weight: 1
+      - path: Bone_105mmJoin
+        weight: 1
+      - path: Bone_105mmJoin/Bone_105mmAim
+        weight: 1
+      - path: Elevon_RightInner
+        weight: 1
+      - path: Elevon_RightOuter
+        weight: 1
+      - path: LandingFlap_Front
+        weight: 1
+      - path: LandingFlap_Left01
+        weight: 1
+      - path: LandingFlap_Left02
+        weight: 1
+      - path: LandingFlap_Right01
+        weight: 1
+      - path: LandingFlap_Right02
+        weight: 1
+      - path: LandingGear_Front
+        weight: 1
+      - path: LandingGear_Front/Wheels_Front
+        weight: 1
+      - path: LandingGear_Left
+        weight: 1
+      - path: LandingGear_Left/Wheel_LeftBck
+        weight: 1
+      - path: LandingGear_Left/Wheel_LeftFwd
+        weight: 1
+      - path: LandingGear_Right
+        weight: 1
+      - path: LandingGear_Right/Wheel_RightBck
+        weight: 1
+      - path: LandingGear_Right/Wheel_RightFwd
+        weight: 1
+      - path: LeftElevonInner
+        weight: 1
+      - path: LeftElevonOuter
+        weight: 1
+      - path: Propellors
+        weight: 1
+      - path: Propellors/PropellerLeftInner
+        weight: 1
+      - path: Propellors/PropellerLeftOuter
+        weight: 1
+      - path: Propellors/PropellerRightInner
+        weight: 1
+      - path: Propellors/PropellerRightOuter
+        weight: 1
+      - path: Propellors_Blurred
+        weight: 1
+      - path: Propellors_Blurred/PropellerLeftInner_Blurred001
+        weight: 1
+      - path: Propellors_Blurred/PropellerLeftOuter_Blurred
+        weight: 1
+      - path: Propellors_Blurred/PropellerRightInner_Blurred
+        weight: 1
+      - path: Propellors_Blurred/PropellerRightOuter_Blurred
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Grounded Pose
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 0.1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 25mmGun
+        weight: 1
+      - path: 50mmCannon
+        weight: 1
+      - path: 105mmCannon
+        weight: 1
+      - path: Bone_105mmJoin
+        weight: 1
+      - path: Bone_105mmJoin/Bone_105mmAim
+        weight: 1
+      - path: Elevon_RightInner
+        weight: 1
+      - path: Elevon_RightOuter
+        weight: 1
+      - path: LandingFlap_Front
+        weight: 1
+      - path: LandingFlap_Left01
+        weight: 1
+      - path: LandingFlap_Left02
+        weight: 1
+      - path: LandingFlap_Right01
+        weight: 1
+      - path: LandingFlap_Right02
+        weight: 1
+      - path: LandingGear_Front
+        weight: 1
+      - path: LandingGear_Front/Wheels_Front
+        weight: 1
+      - path: LandingGear_Left
+        weight: 1
+      - path: LandingGear_Left/Wheel_LeftBck
+        weight: 1
+      - path: LandingGear_Left/Wheel_LeftFwd
+        weight: 1
+      - path: LandingGear_Right
+        weight: 1
+      - path: LandingGear_Right/Wheel_RightBck
+        weight: 1
+      - path: LandingGear_Right/Wheel_RightFwd
+        weight: 1
+      - path: LeftElevonInner
+        weight: 1
+      - path: LeftElevonOuter
+        weight: 1
+      - path: Propellors
+        weight: 1
+      - path: Propellors/PropellerLeftInner
+        weight: 1
+      - path: Propellors/PropellerLeftOuter
+        weight: 1
+      - path: Propellors/PropellerRightInner
+        weight: 1
+      - path: Propellors/PropellerRightOuter
+        weight: 1
+      - path: Propellors_Blurred
+        weight: 1
+      - path: Propellors_Blurred/PropellerLeftInner_Blurred001
+        weight: 1
+      - path: Propellors_Blurred/PropellerLeftOuter_Blurred
+        weight: 1
+      - path: Propellors_Blurred/PropellerRightInner_Blurred
+        weight: 1
+      - path: Propellors_Blurred/PropellerRightOuter_Blurred
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: In Flight Pose
+      takeName: Take 001
+      firstFrame: 80
+      lastFrame: 80.1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 25mmGun
+        weight: 1
+      - path: 50mmCannon
+        weight: 1
+      - path: 105mmCannon
+        weight: 1
+      - path: Bone_105mmJoin
+        weight: 1
+      - path: Bone_105mmJoin/Bone_105mmAim
+        weight: 1
+      - path: Elevon_RightInner
+        weight: 1
+      - path: Elevon_RightOuter
+        weight: 1
+      - path: LandingFlap_Front
+        weight: 1
+      - path: LandingFlap_Left01
+        weight: 1
+      - path: LandingFlap_Left02
+        weight: 1
+      - path: LandingFlap_Right01
+        weight: 1
+      - path: LandingFlap_Right02
+        weight: 1
+      - path: LandingGear_Front
+        weight: 1
+      - path: LandingGear_Front/Wheels_Front
+        weight: 1
+      - path: LandingGear_Left
+        weight: 1
+      - path: LandingGear_Left/Wheel_LeftBck
+        weight: 1
+      - path: LandingGear_Left/Wheel_LeftFwd
+        weight: 1
+      - path: LandingGear_Right
+        weight: 1
+      - path: LandingGear_Right/Wheel_RightBck
+        weight: 1
+      - path: LandingGear_Right/Wheel_RightFwd
+        weight: 1
+      - path: LeftElevonInner
+        weight: 1
+      - path: LeftElevonOuter
+        weight: 1
+      - path: Propellors
+        weight: 1
+      - path: Propellors/PropellerLeftInner
+        weight: 1
+      - path: Propellors/PropellerLeftOuter
+        weight: 1
+      - path: Propellors/PropellerRightInner
+        weight: 1
+      - path: Propellors/PropellerRightOuter
+        weight: 1
+      - path: Propellors_Blurred
+        weight: 1
+      - path: Propellors_Blurred/PropellerLeftInner_Blurred001
+        weight: 1
+      - path: Propellors_Blurred/PropellerLeftOuter_Blurred
+        weight: 1
+      - path: Propellors_Blurred/PropellerRightInner_Blurred
+        weight: 1
+      - path: Propellors_Blurred/PropellerRightOuter_Blurred
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
